@@ -1,5 +1,8 @@
 # Here 2 versions of anti-vowel code
+# From Codeacademy
 
+
+#Ver1
 def anti_vowel(text):
   text = list(text)
   vowels = 'ieaouIEAOU'
@@ -13,7 +16,7 @@ def anti_vowel(text):
 print anti_vowel('AFxz DYy uiy YuA abd')
 
 
-
+#Ver2
 def anti_vowel2(text):
     result = ""
     vowels = "ieaouIEAOU"
