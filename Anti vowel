@@ -1,0 +1,24 @@
+# Here 2 versions of anti-vowel code
+
+def anti_vowel(text):
+  text = list(text)
+  vowels = 'ieaouIEAOU'
+  for i in vowels:
+    while i in text:
+      p = text.index(i)
+      del(text[p])
+  return ''.join(text)
+
+
+print anti_vowel('AFxz DYy uiy YuA abd')
+
+
+
+def anti_vowel2(text):
+    result = ""
+    vowels = "ieaouIEAOU"
+    for char in text:
+        if char not in vowels:
+            result += char
+    return result
+print anti_vowel2("helloy book")
