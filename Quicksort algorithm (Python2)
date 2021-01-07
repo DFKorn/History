@@ -1,5 +1,6 @@
 # --- Quicksort ---
-# quick sort algorithm for python
+# Quick sort algorithm (for python2)
+# Grokking algorithms >> Chapter 4
 
 
 def quicksort(array):
